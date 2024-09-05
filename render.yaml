@@ -1,6 +1,0 @@
- services:
-  - type: web
-    name: hehe6142
-    env: node
-    plan: free
-    startCommand: npm install && npm start
