@@ -1,6 +1,6 @@
  services:
   - type: web
-    name: educational-website
+    name: hehe213
     env: node
     plan: free
     startCommand: npm install && node index.js
