@@ -48,10 +48,10 @@ if(window.location.pathname === "/index.html" || window.location.pathname === "/
     search.style.marginLeft = "-150px";
   });
   const img = document.createElement('img');
-  img.src = '/assets/img/mchost.gif';
+  img.src = '';
   img.className = 'banner footer';
   img.addEventListener('click', function() {
-    location.href = 'https://freeminecrafthost.com/doge/';
+    location.href = '';
   })
   document.body.appendChild(img);
 }
