@@ -42,7 +42,7 @@ function createIframe() {
     tabButton.style.height = '48px';
     tabButton.style.backgroundColor = document.querySelector('.defaultTab').style.backgroundColor;
     tabButton.id = `tabButton-${iframeCount}`;
-    tabButton.src = '';
+    //tabButton.src = '';
     tabButton.innerHTML = `New Tab <span class="tab-close" onclick="removeIframe(${iframeCount})" style="font-size: 20px">&times;</span>`;
     tabButton.onclick = function() {
         const currentIframe = document.getElementById("siteurl");
