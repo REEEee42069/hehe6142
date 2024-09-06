@@ -159,7 +159,7 @@ function cookieClicker() {
 }
 
 function rBowl() {
-  document.title = 'Doge | V4';
+  document.title = 'Stone | V4';
   var cloakcheckScript = document.createElement("script");
   cloakcheckScript.src = "/assets/js/cloak.js";
   document.head.appendChild(cloakcheckScript);
